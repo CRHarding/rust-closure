@@ -11,6 +11,8 @@ fn main() {
   );
 }
 
+
+
 struct Cacher<T>
     where T: Fn(u32) -> u32
 {
